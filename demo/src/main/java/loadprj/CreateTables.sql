@@ -1,6 +1,6 @@
 -- A DB Architect would likely argue whether this setup is the optimal :)
 -- Some values in some fields (eg. color, product_type) are impressively big in the raw example, 
---if it can be even bigger in real life, this should be architected in a way that won't cause trouble. 
+-- if it can be even bigger in real life, this should be architected in a way that won't cause trouble. 
 
 -- Columns in raw: variant_id product_id size_label product_name brand color age_group gender size_type product_type 
 
@@ -30,7 +30,6 @@ CREATE TABLE link_size_type (
     group_value VARCHAR(10) NOT NULL
 );
 
---variant_id product_id size_label product_name brand color age_group gender size_type product_type 
 -- A potential improvement I played here with is storing product_id as INT, maybe it is more effective for searching? I am not sure, a DB expert would be able to say.
               
 CREATE TABLE data_table (
