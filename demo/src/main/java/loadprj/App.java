@@ -26,8 +26,8 @@ import java.util.Map;
  */
 public class App 
 {
-    private static final String csvFile = "C:\\Users\\turcs\\Downloads\\raw_product_data.csv"; // Replace with the path to your CSV file
-    private static final String sqlFilePath = "C:\\Users\\turcs\\DataCleaning\\demo\\src\\main\\java\\loadprj\\CreateTables.sql"; // Path to CreateTable SQL file
+    private static final String csvFile = "raw_product_data.csv"; // Replace with the path to your CSV file
+    private static final String sqlFilePath = "CreateTables.sql"; // Path to CreateTable SQL file
     public static void main(String[] args){
         //Create the tables 
         //Ideally this part is only initialization, so it should not be part of the main function, as we don't want to create table every run.
